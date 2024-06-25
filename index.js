@@ -19,9 +19,8 @@ fetch('./database.json')
     .then(response => response.json())
     .then(data => {
         const texts = data.texts
-        console.log("TEXTS: ", texts);
-
-        texts.forEach(element => {
+        
+        texts.reverse().forEach(element => {
             buildTitle(element)
             buildText(element)
         });

@@ -1,9 +1,25 @@
+body{
+    background-color: rgb(108, 239, 96);
+    padding: 0rem 3rem 2rem 3rem;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
 h1 {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-top: 1rem;
 }
 
 p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+header{
+    padding: 1rem 1rem 0rem 1rem;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 45px;
+    font-family: "Playwrite NZ", cursive;
 }
